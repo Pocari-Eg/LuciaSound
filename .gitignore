@@ -1,0 +1,6 @@
+Lucia/Plugins/
+!Lucia/Assets/
+!Lucia/Build/
+!Lucia/Metadata/
+!Lucia.fspro
+Lucia/.cache/
