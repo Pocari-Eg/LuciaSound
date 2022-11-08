@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{e38fd525-546d-44cd-b032-391bc8aed5f1}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../STARRY-TAIL/StarryTail/Content/FMOD</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{3b202acd-21a8-4a3b-a7f9-0851f21a2f18}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{8dd751f1-3e0e-48e1-b8fc-6866d889079a}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{ad9dda62-b135-46de-857f-6c7d6ca51910}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{acc02226-341b-4fe4-8c9a-fdd413a6509f}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{39338e78-4bb9-46a2-b816-cd4bbe51edc5}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{a098cece-ae66-4ed0-998c-18abbb06bccd}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{837ee598-8eee-4e58-9b47-225c973e16db}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{08a8c9b6-c1e0-480f-b6d2-7312e2160782}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{fac8f5ec-17ce-41c5-a671-c90f72f33a50}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{003bd5dd-b58c-440d-b20b-707eaffe1369}</destination>
+		</relationship>
+	</object>
+</objects>
