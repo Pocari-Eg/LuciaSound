@@ -3,4 +3,5 @@ Lucia/Plugins/
 !Lucia/Build/
 !Lucia/Metadata/
 !Lucia.fspro
-Lucia/.cache/
+!Lucia/.cache/
+!Lucia/.user/
