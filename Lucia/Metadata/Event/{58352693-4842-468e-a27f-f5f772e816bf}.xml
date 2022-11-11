@@ -5,7 +5,7 @@
 			<value>BGM_TITLE</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{041ef013-e0e5-4ae7-b8fa-8bb7b105c872}</destination>
@@ -62,7 +62,7 @@
 	<object class="MarkerTrack" id="{87f349ef-b4aa-46da-a5ae-df9077cee272}" />
 	<object class="GroupTrack" id="{3189118c-4e01-42d9-8c4a-3360686e43a5}">
 		<relationship name="modules">
-			<destination>{186f4472-0ec2-4001-a8d9-58735844af53}</destination>
+			<destination>{a3a6d1b5-a9fc-46b8-95bd-01b664cf80c0}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f1a73552-6a9b-4049-bbf9-f72faf4fbf4b}</destination>
@@ -70,7 +70,7 @@
 	</object>
 	<object class="Timeline" id="{3a7de40c-4cf7-43f0-a1ab-d3cafb3841e7}">
 		<relationship name="modules">
-			<destination>{186f4472-0ec2-4001-a8d9-58735844af53}</destination>
+			<destination>{a3a6d1b5-a9fc-46b8-95bd-01b664cf80c0}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{29fb5b9e-d819-4e2a-92b6-26802b88d768}</destination>
@@ -94,16 +94,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7177dd22-5ee0-4b98-9696-ce03892d8626}" />
-	<object class="SingleSound" id="{186f4472-0ec2-4001-a8d9-58735844af53}">
+	<object class="SingleSound" id="{a3a6d1b5-a9fc-46b8-95bd-01b664cf80c0}">
 		<property name="length">
-			<value>51.040743660882612</value>
+			<value>50.581360544217688</value>
 		</property>
-		<property name="timelockedOffset">
-			<value>50.239256339117397</value>
-		</property>
-		<property name="name" />
 		<relationship name="audioFile">
-			<destination>{1fda1b94-46b4-4b14-94cb-3a81e9cd6cc7}</destination>
+			<destination>{ff7cc0e6-eb89-4ad6-ac45-51f9cff62532}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f1a73552-6a9b-4049-bbf9-f72faf4fbf4b}">
@@ -122,10 +118,10 @@
 	</object>
 	<object class="LoopRegion" id="{29fb5b9e-d819-4e2a-92b6-26802b88d768}">
 		<property name="position">
-			<value>0</value>
+			<value>17.097334804605278</value>
 		</property>
 		<property name="length">
-			<value>51.040743660882612</value>
+			<value>33.484025739612413</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{3a7de40c-4cf7-43f0-a1ab-d3cafb3841e7}</destination>
@@ -139,7 +135,7 @@
 			<value>0</value>
 		</property>
 		<property name="tempo">
-			<value>60</value>
+			<value>86</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{3a7de40c-4cf7-43f0-a1ab-d3cafb3841e7}</destination>
