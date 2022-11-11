@@ -5,7 +5,7 @@
 			<value>SFX_TakeDamageVoice</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ddaa1cbb-040f-4828-a501-11586fda46f5}</destination>
@@ -97,8 +97,9 @@
 			<destination>{3bbfadea-f33a-4781-8450-bfa28754a8d3}</destination>
 		</relationship>
 		<relationship name="sounds">
-			<destination>{9de4c071-7f72-41e8-9aca-d352fcdfd28f}</destination>
-			<destination>{043f9c40-61b5-4f9b-ad08-3f673ec454d4}</destination>
+			<destination>{190ba944-9cd6-4acb-84dc-46f49ad33cb1}</destination>
+			<destination>{f3e717b0-d5ac-4720-b6c2-b44807d0dd11}</destination>
+			<destination>{f722ddc9-8fa5-4b4c-bbd5-bbdbbddfbcd1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b9399054-f24f-45d5-8369-8244931230b0}">
@@ -138,14 +139,19 @@
 			<value>2</value>
 		</property>
 	</object>
-	<object class="SingleSound" id="{9de4c071-7f72-41e8-9aca-d352fcdfd28f}">
+	<object class="SingleSound" id="{190ba944-9cd6-4acb-84dc-46f49ad33cb1}">
 		<relationship name="audioFile">
-			<destination>{277421eb-a3f1-41e1-b755-8d5169bca8b0}</destination>
+			<destination>{b894aa00-ce3c-4561-962d-af006a6ce015}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{043f9c40-61b5-4f9b-ad08-3f673ec454d4}">
+	<object class="SingleSound" id="{f3e717b0-d5ac-4720-b6c2-b44807d0dd11}">
 		<relationship name="audioFile">
-			<destination>{e873aa23-8c12-43f0-b15c-ad83c1db1dc4}</destination>
+			<destination>{d1e2ed73-fa6c-4fae-a21f-a149ef35461e}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{f722ddc9-8fa5-4b4c-bbd5-bbdbbddfbcd1}">
+		<relationship name="audioFile">
+			<destination>{382c2f80-51e8-47b8-b233-ec7837b1d829}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{378cdef1-10d3-4518-95ff-d61ed6701928}">
