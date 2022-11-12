@@ -149,7 +149,7 @@
 	</object>
 	<object class="MultiSound" id="{4e63bf76-c4a8-4fad-8991-ac70e60fd1ae}">
 		<property name="length">
-			<value>0.25</value>
+			<value>0.22656249999999975</value>
 		</property>
 		<property name="pitch">
 			<value>7</value>
