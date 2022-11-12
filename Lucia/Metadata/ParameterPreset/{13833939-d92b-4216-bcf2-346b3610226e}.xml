@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{13833939-d92b-4216-bcf2-346b3610226e}">
+		<property name="name">
+			<value>StackBreak</value>
+		</property>
+		<relationship name="folder">
+			<destination>{acc02226-341b-4fe4-8c9a-fdd413a6509f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ecbfff2c-cce9-4887-8019-9335632cb42d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ecbfff2c-cce9-4887-8019-9335632cb42d}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>MaxStack</value>
+			<value>NoStack</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
