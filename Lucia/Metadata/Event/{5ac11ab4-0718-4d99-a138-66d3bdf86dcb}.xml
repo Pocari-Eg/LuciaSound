@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5ac11ab4-0718-4d99-a138-66d3bdf86dcb}">
 		<property name="name">
-			<value>ME_Lab</value>
+			<value>ME_Stage</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{61bd3397-022f-461b-b61a-78c8632d17c7}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{caf80624-c171-4109-8de1-ace3b8b0917a}</destination>
+		</relationship>
+		<relationship name="parameters">
+			<destination>{e8db1f82-84b0-415c-b5e7-ae10a773e4ea}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{fa020c39-78c9-4026-b453-23c6d90afdb0}">
@@ -56,11 +59,28 @@
 	<object class="EventAutomatableProperties" id="{b819d169-1880-47b2-ae9c-010fd92536bb}" />
 	<object class="MarkerTrack" id="{cee4877e-da51-4fdd-a1b5-ac28a0738905}" />
 	<object class="GroupTrack" id="{5e2e2401-c2ac-41a8-9bf0-bb1f7afc3d30}">
+		<relationship name="modules">
+			<destination>{e6858942-1b01-4f00-8399-bcd59a26e164}</destination>
+			<destination>{4f778504-4584-4c0e-bd11-585d0cb20b20}</destination>
+			<destination>{864c9da9-0144-4f68-b307-84382592d877}</destination>
+			<destination>{393d711d-c560-4477-8299-3ad1d00fc9f3}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{80be5369-40d6-48d9-83b7-0a1f0d7d81c8}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{caf80624-c171-4109-8de1-ace3b8b0917a}" />
+	<object class="ParameterProxy" id="{e8db1f82-84b0-415c-b5e7-ae10a773e4ea}">
+		<relationship name="modules">
+			<destination>{e6858942-1b01-4f00-8399-bcd59a26e164}</destination>
+			<destination>{4f778504-4584-4c0e-bd11-585d0cb20b20}</destination>
+			<destination>{864c9da9-0144-4f68-b307-84382592d877}</destination>
+			<destination>{393d711d-c560-4477-8299-3ad1d00fc9f3}</destination>
+		</relationship>
+		<relationship name="preset">
+			<destination>{e61e04fb-917d-4c1f-9b9b-add6c72e45df}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{ec9552de-5759-4ee4-b0e5-8a89f8a46af0}">
 		<relationship name="effectChain">
 			<destination>{f35922f1-5c71-43bd-a079-c9607acbd441}</destination>
@@ -78,7 +98,60 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fd6a5297-eb5f-4882-9079-4aa42d16ee36}" />
+	<object class="SingleSound" id="{e6858942-1b01-4f00-8399-bcd59a26e164}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{fd23948f-70f6-445c-8f13-f0e8b32292f5}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{4f778504-4584-4c0e-bd11-585d0cb20b20}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>3</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{0392350b-2e39-4b2d-b640-67e9c12f72b2}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{864c9da9-0144-4f68-b307-84382592d877}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{f60bbd9d-3e2a-4857-8dba-36559ad3a054}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{393d711d-c560-4477-8299-3ad1d00fc9f3}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{4c2a441e-c426-40e8-b9f7-20a17b2ebca8}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{80be5369-40d6-48d9-83b7-0a1f0d7d81c8}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

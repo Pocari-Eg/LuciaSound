@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{83b22694-d5f3-478e-b549-530d77ecdff3}">
+		<property name="name">
+			<value>BDAttack</value>
+		</property>
+		<relationship name="folder">
+			<destination>{981e2c0a-7142-4c97-9e42-fda60b1a7095}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{62c52e69-3f34-4f0d-aa87-6f10a60260a8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{62c52e69-3f34-4f0d-aa87-6f10a60260a8}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>BlowAttack</value>
+			<value>QuakeAttack</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

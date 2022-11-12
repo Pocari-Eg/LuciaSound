@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3aa477e3-bd9b-44ce-9a70-e5212779b75d}">
+		<property name="name">
+			<value>EnviStage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{acc02226-341b-4fe4-8c9a-fdd413a6509f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e61e04fb-917d-4c1f-9b9b-add6c72e45df}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e61e04fb-917d-4c1f-9b9b-add6c72e45df}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>inMainhall</value>
+			<value>inLibrary</value>
+			<value>inCrystal</value>
+			<value>inOrgranism</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

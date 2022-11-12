@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d717f0cf-44cb-4c30-983c-0b5ae333b2a2}">
+		<property name="name">
+			<value>BLSwirlAttack</value>
+		</property>
+		<relationship name="folder">
+			<destination>{acc02226-341b-4fe4-8c9a-fdd413a6509f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1d2e3ee5-4ae3-4154-96c6-92f2620e6ae1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1d2e3ee5-4ae3-4154-96c6-92f2620e6ae1}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>In</value>
+			<value>Out</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

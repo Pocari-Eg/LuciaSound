@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{47973983-1d0c-4ded-a3c8-1735cb85a0dc}">
 		<property name="name">
-			<value>Monster</value>
+			<value>MonsterType</value>
 		</property>
 		<relationship name="folder">
-			<destination>{acc02226-341b-4fe4-8c9a-fdd413a6509f}</destination>
+			<destination>{981e2c0a-7142-4c97-9e42-fda60b1a7095}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{0fb75d43-8139-4f8b-8a0d-98288007b802}</destination>
