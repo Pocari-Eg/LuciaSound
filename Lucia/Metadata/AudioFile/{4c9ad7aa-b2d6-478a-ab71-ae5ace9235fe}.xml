@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4c9ad7aa-b2d6-478a-ab71-ae5ace9235fe}">
+		<property name="assetPath">
+			<value>stance_off.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0028571428571429</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{837ee598-8eee-4e58-9b47-225c973e16db}</destination>
+		</relationship>
+	</object>
+</objects>

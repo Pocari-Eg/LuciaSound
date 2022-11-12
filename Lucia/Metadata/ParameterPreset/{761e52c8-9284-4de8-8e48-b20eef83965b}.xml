@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{761e52c8-9284-4de8-8e48-b20eef83965b}">
+		<property name="name">
+			<value>StanceState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{acc02226-341b-4fe4-8c9a-fdd413a6509f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7805fc14-0aaa-4371-b99e-b028531c2718}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7805fc14-0aaa-4371-b99e-b028531c2718}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>ON</value>
+			<value>OFF</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

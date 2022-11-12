@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{da2e1ccd-3662-4476-a5bc-d7024c4506aa}">
+		<property name="assetPath">
+			<value>lucia_ultimate_slash_with_sfx.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.2117233560090703</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{837ee598-8eee-4e58-9b47-225c973e16db}</destination>
+		</relationship>
+	</object>
+</objects>

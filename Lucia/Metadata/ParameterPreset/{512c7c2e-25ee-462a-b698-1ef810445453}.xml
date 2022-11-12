@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{512c7c2e-25ee-462a-b698-1ef810445453}">
+		<property name="name">
+			<value>LabMagicState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{acc02226-341b-4fe4-8c9a-fdd413a6509f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2c421d4a-6b54-48ca-90c1-eba45c426830}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2c421d4a-6b54-48ca-90c1-eba45c426830}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>SignWait</value>
+			<value>Wait</value>
+			<value>Explosion</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

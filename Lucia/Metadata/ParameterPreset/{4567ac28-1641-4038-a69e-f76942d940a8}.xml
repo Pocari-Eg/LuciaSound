@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4567ac28-1641-4038-a69e-f76942d940a8}">
+		<property name="name">
+			<value>DodgeType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{acc02226-341b-4fe4-8c9a-fdd413a6509f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7bc05b0f-71ce-4dd0-bd88-62d471c74e39}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7bc05b0f-71ce-4dd0-bd88-62d471c74e39}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Normal</value>
+			<value>Just</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

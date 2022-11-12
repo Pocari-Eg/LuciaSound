@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fd236192-b329-4e23-a3ba-50692f1ec636}">
+		<property name="assetPath">
+			<value>Lucia_justDodge2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.94941043083900223</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{837ee598-8eee-4e58-9b47-225c973e16db}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,8 +1,8 @@
 Lucia/Plugins/
 !Lucia/Assets/
 !Lucia/Build/
-Lucia/Metadata/
+!Lucia/Metadata/
 !Lucia.fspro
 Lucia/.cache/
 Lucia/.unsaved/
-!Lucia/.user/
+Lucia/.user/
