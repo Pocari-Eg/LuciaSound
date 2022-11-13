@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a97190bf-b568-49e9-b512-d181a5d20620}">
 		<property name="name">
-			<value>AMB_Library</value>
+			<value>AMB_Lab</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -56,11 +56,7 @@
 			<destination>{c2f3d823-7941-4a60-86a2-e43ed8d37cc7}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{c3e96e4a-c6e5-4d19-a0b8-f28203a71b09}">
-		<property name="maximumDistance">
-			<value>600</value>
-		</property>
-	</object>
+	<object class="EventAutomatableProperties" id="{c3e96e4a-c6e5-4d19-a0b8-f28203a71b09}" />
 	<object class="MarkerTrack" id="{9edd11b2-a9a4-4c83-b7a9-9a77ed390cd1}" />
 	<object class="GroupTrack" id="{a7e7a1c2-08d4-47f2-8d04-e0bb78062338}">
 		<relationship name="modules">
@@ -159,10 +155,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{c95b9253-146b-4817-9360-fe9b7b77d403}" />
 	<object class="MixerBusFader" id="{917375b7-4dc3-45b4-bfc4-d09cdcdda656}" />
-	<object class="SpatialiserEffect" id="{326d0fb1-5333-49da-a83c-fa25cfdd990b}">
-		<property name="maximumDistance">
-			<value>600</value>
-		</property>
-	</object>
+	<object class="SpatialiserEffect" id="{326d0fb1-5333-49da-a83c-fa25cfdd990b}" />
 	<object class="MixerBusFader" id="{4e35f2a3-8ec0-45dd-8dfd-d5a616c2925e}" />
 </objects>
