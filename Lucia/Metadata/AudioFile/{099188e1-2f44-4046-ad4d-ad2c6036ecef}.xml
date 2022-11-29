@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{099188e1-2f44-4046-ad4d-ad2c6036ecef}">
+		<property name="assetPath">
+			<value>Pad 2_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.2692970521541946</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{837ee598-8eee-4e58-9b47-225c973e16db}</destination>
+		</relationship>
+	</object>
+</objects>

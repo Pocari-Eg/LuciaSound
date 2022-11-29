@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{e38fd525-546d-44cd-b032-391bc8aed5f1}">
 		<property name="builtBanksOutputDirectory">
-			<value>C:/Users/cksdu/Desktop/STARRY-TAIL/StarryTail/Content/FMOD</value>
+			<value>../../../STARRY-TAIL/StarryTail/Content/FMOD</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{3b202acd-21a8-4a3b-a7f9-0851f21a2f18}</destination>
