@@ -5,7 +5,7 @@
 			<value>SFX_Groggy</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd7ecea4-bd7d-4c17-8524-10a1588b0a96}</destination>
@@ -122,7 +122,11 @@
 			<destination>{d53972e0-8591-4e0b-a78a-a7b180934b4b}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{fb90c3ee-85eb-429a-b771-db031b69ad7d}" />
+	<object class="MixerBusPanner" id="{fb90c3ee-85eb-429a-b771-db031b69ad7d}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{1e55e296-45ef-4ef5-986f-cf14d7ff192c}" />
 	<object class="FadeCurve" id="{6a630be8-1a6f-4dfa-9a70-2d9b7ab72d39}">
 		<relationship name="startPoint">

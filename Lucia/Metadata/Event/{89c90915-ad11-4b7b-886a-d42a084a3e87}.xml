@@ -5,7 +5,7 @@
 			<value>SFX_Death</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd7ecea4-bd7d-4c17-8524-10a1588b0a96}</destination>
@@ -122,7 +122,11 @@
 			<destination>{773bd411-a285-401f-8f46-bf8398a75094}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{a4c1caad-e824-4b56-8866-381ce863ac36}" />
+	<object class="MixerBusPanner" id="{a4c1caad-e824-4b56-8866-381ce863ac36}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{8aac6ff9-46ed-4ecf-a333-d69564eccbd7}" />
 	<object class="FadeCurve" id="{29bfe909-25be-460b-a167-cac1694c12c5}">
 		<relationship name="startPoint">

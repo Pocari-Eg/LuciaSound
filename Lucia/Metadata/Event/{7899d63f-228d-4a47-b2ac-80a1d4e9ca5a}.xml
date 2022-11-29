@@ -5,7 +5,7 @@
 			<value>SFX_BL_SwirlAttackIn</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd7ecea4-bd7d-4c17-8524-10a1588b0a96}</destination>
@@ -168,7 +168,11 @@
 			<destination>{c18ceeca-fe27-4966-8bd5-7622e898a0a6}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{ebfe26ec-7c19-4821-81c2-4331e139db98}" />
+	<object class="MixerBusPanner" id="{ebfe26ec-7c19-4821-81c2-4331e139db98}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{86214d00-c573-4774-8f0c-a24bd1f2b868}" />
 	<object class="MixerBusEffectChain" id="{b589b05e-8eec-4c39-9639-414af8fd96b0}">
 		<relationship name="effects">

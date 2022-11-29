@@ -5,7 +5,7 @@
 			<value>SFX_BL_TeleportAttack</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd7ecea4-bd7d-4c17-8524-10a1588b0a96}</destination>
@@ -56,7 +56,11 @@
 			<destination>{ddec4c92-4889-473a-ba9e-740c260b6b25}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{9c650114-511c-4701-b094-defb369ce1db}" />
+	<object class="EventAutomatableProperties" id="{9c650114-511c-4701-b094-defb369ce1db}">
+		<property name="maximumDistance">
+			<value>85</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{e0f9a433-7276-409a-af5c-5f2348e4a598}" />
 	<object class="GroupTrack" id="{bf2ae878-d2b0-47ec-aa2b-5831f5dfefec}">
 		<relationship name="modules">
@@ -119,7 +123,11 @@
 			<destination>{7add7b87-2692-449e-a727-b3d4bd80eab0}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{fd033441-66f3-4cfb-ab45-722c35a565f8}" />
+	<object class="MixerBusPanner" id="{fd033441-66f3-4cfb-ab45-722c35a565f8}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{786156c0-7c7f-4f72-9c61-c40986312c87}" />
 	<object class="FadeCurve" id="{68b55589-5825-4406-8307-059f8f1c9eef}">
 		<relationship name="startPoint">
@@ -136,7 +144,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{19a81081-36b7-44a8-85b4-fb46b57e79cd}" />
 	<object class="MixerBusFader" id="{b6fb5ad5-d0e6-45a3-b7f4-f437b9640683}" />
-	<object class="SpatialiserEffect" id="{7add7b87-2692-449e-a727-b3d4bd80eab0}" />
+	<object class="SpatialiserEffect" id="{7add7b87-2692-449e-a727-b3d4bd80eab0}">
+		<property name="maximumDistance">
+			<value>85</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{21c1c156-3521-4094-b15d-e1ed78adea03}">
 		<property name="position">
 			<value>0.60000000000000009</value>

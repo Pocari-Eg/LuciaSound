@@ -5,7 +5,7 @@
 			<value>SFX_BLAttack</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd7ecea4-bd7d-4c17-8524-10a1588b0a96}</destination>
@@ -163,7 +163,11 @@
 			<destination>{18f8cc28-b1fd-4e6b-8747-5d6a3a261747}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5522e729-9743-487d-b583-af87baf22fd9}" />
+	<object class="MixerBusPanner" id="{5522e729-9743-487d-b583-af87baf22fd9}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{5f7d50b6-bc29-4d33-93f1-7b2255c32c68}" />
 	<object class="FadeCurve" id="{f143d241-cb3a-4b33-bdc9-46bbcd779473}">
 		<relationship name="startPoint">

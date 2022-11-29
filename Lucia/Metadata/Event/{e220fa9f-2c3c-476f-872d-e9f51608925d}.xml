@@ -5,7 +5,7 @@
 			<value>SFX_BL_Projectile</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd7ecea4-bd7d-4c17-8524-10a1588b0a96}</destination>
@@ -56,7 +56,11 @@
 			<destination>{ddec4c92-4889-473a-ba9e-740c260b6b25}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{69860fb5-1fd5-4504-ac4f-f3774a9f50ad}" />
+	<object class="EventAutomatableProperties" id="{69860fb5-1fd5-4504-ac4f-f3774a9f50ad}">
+		<property name="maximumDistance">
+			<value>60</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{ddedc1ca-d90f-4a49-8255-ab1ab25b8521}" />
 	<object class="GroupTrack" id="{cfd77e66-bdb7-4c64-afcc-ee642c1464cf}">
 		<relationship name="modules">
@@ -100,6 +104,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e25130b2-8153-47a5-accf-083031a1632c}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -119,7 +126,11 @@
 			<destination>{4a13d4c4-9000-47bb-b384-f18712451b8a}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{2740be72-3249-451e-8a36-c42223e1d5a4}" />
+	<object class="MixerBusPanner" id="{2740be72-3249-451e-8a36-c42223e1d5a4}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ea0367f6-5cca-41bd-a1a1-ffa15ecec927}" />
 	<object class="FadeCurve" id="{e6e1e817-3420-4a84-8ee1-0aa10effb34e}">
 		<relationship name="startPoint">
@@ -136,7 +147,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{16b99dbd-fd7c-4440-8bb3-203f23072d3b}" />
 	<object class="MixerBusFader" id="{21004d71-3c5b-4c6e-a582-2ac3978479d2}" />
-	<object class="SpatialiserEffect" id="{4a13d4c4-9000-47bb-b384-f18712451b8a}" />
+	<object class="SpatialiserEffect" id="{4a13d4c4-9000-47bb-b384-f18712451b8a}">
+		<property name="maximumDistance">
+			<value>60</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{7a453387-4595-432d-829b-6c091304791a}">
 		<property name="position">
 			<value>0.20000000000000001</value>

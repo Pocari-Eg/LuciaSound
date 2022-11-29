@@ -5,7 +5,7 @@
 			<value>SFX_BL_Tail</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd7ecea4-bd7d-4c17-8524-10a1588b0a96}</destination>
@@ -154,7 +154,11 @@
 			<destination>{b70c2ce3-39d1-4316-8a35-35f168dd0047}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{32eafa69-7f9f-47b0-b1b4-ade85ed648bb}" />
+	<object class="MixerBusPanner" id="{32eafa69-7f9f-47b0-b1b4-ade85ed648bb}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{364a389c-0ce3-4546-86ad-a9b0ed86d05a}" />
 	<object class="FadeCurve" id="{8321511c-3820-4322-ab8b-9c90ae175afb}">
 		<relationship name="startPoint">
