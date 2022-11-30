@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0724fe4a-d82b-471e-ad05-056f5d5b8cf8}">
 		<property name="name">
-			<value>SFX_SkillVoice</value>
+			<value>SFX_SpiritSkillVoice</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
